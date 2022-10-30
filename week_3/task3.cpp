@@ -1,11 +1,14 @@
 #include <iostream>
-bool isInSquare(double x, double y, double side, double centerX, double centerY) {
+bool isInSquare(double x, double y, double side, double centerX, double centerY)
+{
     return (x >= centerX - side / 2 && x <= centerX + side / 2) && (y >= centerY - side / 2 && y <= centerY + side / 2);
 }
-bool isInCircle(double x, double y, double radius, double centerX, double centerY) {
+bool isInCircle(double x, double y, double radius, double centerX, double centerY)
+{
     return (x - centerX) * (x - centerX) + (y - centerY) * (y - centerY) <= radius * radius;
 }
-int main(){
+int main()
+{
 
     double x, y;
     std::cin >> x >> y;

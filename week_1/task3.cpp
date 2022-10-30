@@ -14,8 +14,8 @@ int main()
 
     unsigned int sum = ones + tens + hundreds;
 
-    std::cout << "Ones: " << ones << " Tens: " << tens 
-              << " Hundreds: " << hundreds << " Sum: " << sum 
+    std::cout << "Ones: " << ones << " Tens: " << tens
+              << " Hundreds: " << hundreds << " Sum: " << sum
               << std::endl;
 
     return 0;
