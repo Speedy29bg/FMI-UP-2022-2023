@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
-int main(){
+int main()
+{
     int x0, y0, r;
     std::cin >> x0 >> y0 >> r;
     int x, y;

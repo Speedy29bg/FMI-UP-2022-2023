@@ -20,7 +20,8 @@ int main()
         }
         if (count % 2 != 0)
         {
-            std::cout << '\n' << arr[i] << '\n';
+            std::cout << '\n'
+                      << arr[i] << '\n';
             break;
         }
     }
