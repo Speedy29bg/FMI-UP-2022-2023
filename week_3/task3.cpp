@@ -1,8 +1,3 @@
-/*
-Напишете програма, която проверява дали дадена точка (x,y) се намира:
-- В квадрат с център (0,0) и страна 4 и в окръжност с център (0,3) и радиус 1, ако x > 0
-- В квадрата, но извън окръжността, ако x < 0
-*/
 #include <iostream>
 bool isInSquare(double x, double y, double side, double centerX, double centerY) {
     return (x >= centerX - side / 2 && x <= centerX + side / 2) && (y >= centerY - side / 2 && y <= centerY + side / 2);

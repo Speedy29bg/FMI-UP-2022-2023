@@ -1,8 +1,6 @@
 #include <iostream>
 #include <cmath>
 
-// Намерете корените на уравнението 1x^2 + 3x - 4 = 0
-
 int main()
 {
     // int a = 1;
