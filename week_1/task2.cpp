@@ -3,9 +3,6 @@
 
 int main()
 {
-    // int a = 1;
-    // int b = 3;
-    // int c = -4;
     int a = 0;
     int b = 0;
     int c = 0;
