@@ -3,7 +3,7 @@
 
 typedef unsigned char bactery[3];
 
-bactery** infect(const bactery const* const* colony, size_t height, size_t width, size_t row, size_t col) {
+bactery** infect(const* bactery const* colony, size_t height, size_t width, size_t row, size_t col) {
     int avg = (colony[row][col][0] + colony[row][col][1] + colony[row][col][2]) / 3;
     colony[row][col][0] = colony[row][col][1] = colony[row][col][2] = 0;
     for (int i = 0; i < height; i++) {
